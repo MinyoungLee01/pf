@@ -1,0 +1,529 @@
+@charset "utf-8";
+@media screen and (max-width:1400px) {
+    h1 {
+        font-size: 15rem;
+    }
+
+    main .home .titlebox {
+        left: 40px;
+    }
+
+    main .home .textbox {
+        bottom: 187px;
+        left: 702px;
+    }
+
+    main .home .textbox p {
+        font-size: 2.2rem;
+    }
+
+    main .aboutme h1 {
+        padding: 0 40px;
+    }
+
+    main .aboutme .flex {
+        padding: 30px 40px;
+    }
+
+    main .works nav {
+        padding: 0 40px;
+    }
+
+    main .works .listbox .list {
+        padding: 15px 40px;
+    }
+
+    .list.point::after {
+        left: 42px;
+    }
+
+    /* 서브 반응형 */
+    .flexsection {
+        padding: 50px 40px;
+    }
+
+    img.on {
+        padding: 50px 40px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    h1 {
+        font-size: 12.2rem;
+    }
+
+    main .home .titlebox {
+        bottom: 15px;
+    }
+
+    main .home .textbox {
+        bottom: 151px;
+        left: 578px;
+    }
+
+    main .home .textbox p {
+        font-size: 1.8rem;
+    }
+
+    main .aboutme .stickybox {
+        top: -15px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    html {
+        font-size: 9px;
+    }
+
+    header .dark {
+        width: 44px;
+        height: 28px;
+        margin-top: 11px;
+    }
+
+    header .dark::before {
+        width: 18px;
+        height: 18px;
+        left: 12px;
+    }
+
+    body.light header .dark::before {
+        left: 28px;
+    }
+
+    main .home .titlebox {
+        left: 30px;
+        bottom: 10px;
+    }
+
+    main .home .textbox {
+        bottom: 133px;
+        left: 514px;
+    }
+
+    main .aboutme .stickybox {
+        top: -10px;
+    }
+
+    main .aboutme h1 {
+        padding: 0 30px;
+    }
+
+    main .aboutme .flex {
+        padding: 22px 30px;
+    }
+
+    main .aboutme .flex .left {
+        gap: 15px;
+    }
+
+    main .aboutme .flex .right {
+        width: 390px;
+    }
+
+    main .works nav {
+        padding: 0 30px;
+    }
+
+    main .works ul {
+        gap: 20px;
+    }
+
+    main .works .btnbox p {
+        padding-left: 15px;
+    }
+
+    main .works .listbox .list {
+        padding: 15px 30px;
+        height: 84px;
+    }
+
+    main .works .listbox.hover .list:hover,
+    main .works .listbox.click .list.on,
+    main .works .listbox .list.on {
+        height: 364px;
+    }
+
+    main .works .listbox .list .bottom {
+        margin-bottom: 7px;
+    }
+
+    main .works .listbox .list .bottom a {
+        padding-right: 16px;
+    }
+
+    main .works .listbox .list .bottom a::after {
+        width: 14px;
+        height: 14px;
+    }
+
+    main .works .listbox .list .bottom a::before {
+        width: 14px;
+        height: 14px;
+    }
+
+    .list.point::after {
+        left: 32px;
+    }
+
+    /* 서브 반응형 ㅜ */
+    .flexsection {
+        padding: 50px 30px;
+        gap: 15px;
+    }
+
+    img.on {
+        padding: 50px 30px;
+    }
+}
+
+@media screen and (max-width:904px) {
+    html {
+        font-size: 8px;
+    }
+
+    header .dark {
+        width: 40px;
+        height: 26px;
+        margin-top: 12px;
+    }
+
+    header .dark::before {
+        width: 17px;
+        height: 17px;
+        left: 11px;
+    }
+
+    body.light header .dark::before {
+        left: 25px;
+    }
+
+    main .home .titlebox {
+        left: 20px;
+        bottom: 5px;
+    }
+
+    main .home .textbox {
+        bottom: 113px;
+        left: 450px;
+    }
+
+    main .aboutme .stickybox {
+        top: -6px;
+    }
+
+    main .aboutme h1 {
+        padding: 0 20px;
+    }
+
+    main .aboutme .flex {
+        padding: 15px 20px;
+    }
+
+    main .aboutme .flex .left {
+        gap: 10px;
+    }
+
+    main .aboutme .flex .right {
+        width: 345px;
+    }
+
+    main .works nav {
+        padding: 0 20px;
+    }
+
+    main .works .listbox .list {
+        padding: 15px 20px;
+        height: 78px;
+    }
+
+    main .works .listbox.hover .list:hover,
+    main .works .listbox.click .list.on,
+    main .works .listbox .list.on {
+        height: 354px;
+    }
+
+    main .works .listbox .list .top p {
+        padding-top: 6px;
+    }
+
+    main .works .listbox .list .middle.slide {
+        width: 600px;
+        height: 225px;
+    }
+
+    main .works .listbox .list .bottom {
+        margin-bottom: 5px;
+    }
+
+    main .works .listbox .list .bottom a {
+        padding-right: 14px;
+    }
+
+    main .works .listbox .list .bottom a::after {
+        width: 13px;
+        height: 13px;
+        top: 1px;
+    }
+
+    main .works .listbox .list .bottom a::before {
+        width: 13px;
+        height: 13px;
+        top: 1px;
+    }
+
+    .list.point::after {
+        top: 9px;
+        left: 22px;
+    }
+
+    /* 서브 반응형 ㅜ */
+    .flexsection {
+        padding: 50px 20px;
+    }
+
+    img.on {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:794px) {
+    h1 {
+        font-size: 10rem;
+    }
+
+    main .home .textbox {
+        bottom: 93px;
+        left: 373px;
+    }
+
+    main .home .textbox p {
+        font-size: 1.5rem;
+    }
+
+    main .aboutme .stickybox {
+        top: -6px;
+    }
+
+    main .aboutme .flex .left {
+        gap: 10px;
+    }
+
+    main .aboutme .flex .right {
+        width: 345px;
+    }
+
+    .viewbtn {
+        display: none;
+    }
+
+    main .works .listbox .list .top {
+        flex-direction: column;
+    }
+
+    main .works .listbox .list {
+        height: 97px;
+    }
+
+    main .works .listbox.hover .list:hover,
+    main .works .listbox.click .list.on,
+    main .works .listbox .list.on {
+        height: 367px;
+    }
+
+    main .works .listbox .list .top p {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .list.point::after {
+        top: 5px;
+    }
+}
+
+@media screen and (max-width:655px) {
+    html {
+        font-size: 7px;
+    }
+
+    header .dark {
+        width: 36px;
+        height: 24px;
+        margin-top: 13px;
+    }
+
+    header .dark::before {
+        width: 15px;
+        height: 15px;
+        left: 10px;
+    }
+
+    body.light header .dark::before {
+        left: 22px;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+
+    header.on {
+        height: 50px;
+    }
+
+    header p {
+        font-size: 1.9rem;
+    }
+
+    header span {
+        margin-left: 10px;
+    }
+
+    main .home .textbox {
+        bottom: 12px;
+        left: auto;
+        right: 20px;
+        mix-blend-mode: difference;
+    }
+
+    body.light main .home .textbox {
+        mix-blend-mode: normal;
+    }
+
+    main .aboutme .flex .right {
+        margin-left: 10px;
+    }
+
+    main .works nav {
+        top: calc(100% - 50px);
+    }
+
+    main .works ul li,
+    main .works .btnbox p {
+        font-size: 1.9rem;
+    }
+
+    main .works .listbox .list {
+        padding: 10px 20px;
+        height: 87px;
+    }
+
+    main .works .listbox.hover .list:hover,
+    main .works .listbox.click .list.on,
+    main .works .listbox .list.on {
+        height: 380px;
+    }
+
+    main .works .listbox .list .middle.slide {
+        width: 100%;
+    }
+
+    main .works .listbox .list .bottom {
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+    }
+
+    main .works .listbox .list .bottom a {
+        font-size: 1.9rem;
+        text-align: right;
+    }
+
+    main .works .listbox .list .bottom a::after {
+        top: 2px;
+    }
+
+    main .works .listbox .list .bottom a::before {
+        top: 2px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .pcup {
+        display: none;
+    }
+
+    .mobileup {
+        display: inline;
+    }
+
+    main .works ul {
+        gap: 15px;
+    }
+
+    main .works .btnbox p {
+        padding-left: 10px;
+    }
+
+    /* 서브 */
+    img.on {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    header .flex {
+        padding: 0 10px;
+    }
+
+    main .home .titlebox {
+        left: 10px;
+    }
+
+    .mobile h1 {
+        padding-right: 10px;
+    }
+
+    main .home .textbox {
+        right: 10px;
+    }
+
+    main .aboutme h1 {
+        padding: 0 10px;
+    }
+
+    main .aboutme .flex {
+        padding: 15px 10px;
+    }
+
+    main .aboutme .flex .right {
+        margin-left: 20px;
+    }
+
+    main .works nav {
+        padding: 0 10px;
+    }
+
+    main .works ul {
+        gap: 10px;
+    }
+
+    main .works ul li,
+    main .works .btnbox p {
+        font-size: 1.8rem;
+    }
+
+    main .works .listbox .list {
+        padding: 10px 10px;
+    }
+
+    main .works .listbox .list .top p {
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .list.point::after {
+        left: 12px;
+    }
+
+    /* 서브 */
+    .flexsection {
+        padding: 50px 10px;
+        gap: 10px;
+    }
+}

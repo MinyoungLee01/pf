@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body.light::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
+
+body.light::-webkit-scrollbar-track {
+    background-color: #FFF;
+}
+
+* {
+    transition: color .4s, background-color .4s;
+}
+
+body.light {
+    background-color: #FFF;
+}
+
+
+body.light h1,
+body.light h2,
+body.light h3,
+body.light h4,
+body.light h5,
+body.light h6,
+body.light p,
+body.light span,
+body.light a,
+body.light li {
+    color: #000000;
+}
+
+body.light .point {
+    color: #1654ff !important;
+}
+
+body.light header {
+    background-color: #FFF;
+}
+
+body.light header::before {
+    background-color: #1654ff;
+}
+
+body.light header::after {
+    background-color: #000;
+}
+
+body.light header .dark {
+    border-color: #000;
+}
+
+body.light header.bcc .dark {
+    border-color: #FFF;
+}
+
+body.light header .dark::before {
+    background-color: #000;
+    left: 32px;
+}
+
+body.light header.bcc .dark::before {
+    background-color: #FFF;
+}
+
+body.light header.bcc p,
+body.light header.bcc span {
+    color: #FFF;
+}
+
+body.light main .works nav .mobile {
+    background-color: #FFF;
+}
+
+body.light main .works ul li.on {
+    opacity: 1;
+    /* color: #1654ff; */
+}
+
+body.light main .works ul li:hover {
+    /* color: #1654ff; */
+    opacity: 0.7;
+}
+
+body.light main .works .listbox .list {
+    border-color: #000;
+}
+
+body.light main .works .listbox .list .bottom a::after {
+    opacity: 0;
+}
+
+body.light main .works .listbox .list .bottom a::before {
+    opacity: 1;
+}
+
+body.light footer {
+    background-color: #00000020;
+}
