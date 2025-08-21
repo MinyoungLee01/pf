@@ -45,6 +45,12 @@
     img.on {
         padding: 50px 40px;
     }
+
+    /* 호버 방지 */
+    .flexsection a:hover,
+    .flexsection img:hover {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width:1240px) {
@@ -175,6 +181,13 @@
     img.on {
         padding: 50px 30px;
     }
+
+    .flexsection a::before,
+    .flexsection a::after {
+        width: 19px;
+        height: 19px;
+        right: 15px;
+    }
 }
 
 @media screen and (max-width:904px) {
@@ -285,6 +298,14 @@
     img.on {
         padding: 50px 20px;
     }
+
+    .flexsection a::before,
+    .flexsection a::after {
+        width: 17px;
+        height: 17px;
+        right: 18px;
+        top: 4px;
+    }
 }
 
 @media screen and (max-width:794px) {
@@ -346,6 +367,10 @@
         font-size: 7px;
     }
 
+    h1 {
+        font-size: 12rem;
+    }
+
     header .dark {
         width: 36px;
         height: 24px;
@@ -383,14 +408,13 @@
     }
 
     main .home .textbox {
-        bottom: 12px;
+        bottom: 16px;
         left: auto;
         right: 20px;
-        mix-blend-mode: difference;
     }
 
-    body.light main .home .textbox {
-        mix-blend-mode: normal;
+    main .home .textbox p {
+        font-size: 1.7rem;
     }
 
     main .aboutme .flex .right {
@@ -439,6 +463,15 @@
     main .works .listbox .list .bottom a::before {
         top: 2px;
     }
+
+    /* 서브부분 */
+    .flexsection a::before,
+    .flexsection a::after {
+        width: 15px;
+        height: 15px;
+        right: 19px;
+        top: 3px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -448,6 +481,22 @@
 
     .mobileup {
         display: inline;
+    }
+
+    main .home .titlebox {
+        bottom: 20px;
+    }
+
+    main .home .textbox {
+        bottom: 31px;
+    }
+
+    main .aboutme h1 {
+        top: 60px;
+    }
+
+    main .aboutme .flex {
+        padding: 20px 20px;
     }
 
     main .works ul {
@@ -473,12 +522,20 @@
         left: 10px;
     }
 
+    h1 {
+        font-size: 11rem;
+    }
+
     .mobile h1 {
         padding-right: 10px;
     }
 
     main .home .textbox {
         right: 10px;
+    }
+
+    main .home .textbox p {
+        font-size: 1.6rem;
     }
 
     main .aboutme h1 {

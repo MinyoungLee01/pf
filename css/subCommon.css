@@ -115,11 +115,9 @@ main .bg {
   width: 130vh;
   height: 130vh;
   border-radius: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(217, 217, 217, 0.2) 0%,
-    rgba(115, 115, 115, 0.2) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(217, 217, 217, 0.2) 0%,
+      rgba(115, 115, 115, 0.2) 100%);
   position: absolute;
   left: 100%;
   top: 50%;
@@ -131,11 +129,9 @@ main .bg {
   width: 50vh;
   height: 50vh;
   border-radius: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(217, 217, 217, 0.2) 0%,
-    rgba(115, 115, 115, 0.2) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(217, 217, 217, 0.2) 0%,
+      rgba(115, 115, 115, 0.2) 100%);
   position: absolute;
   left: 0;
   top: 0;
@@ -152,14 +148,17 @@ main .bg {
   flex-wrap: wrap;
   /* align-items: end; */
 }
+
 .flexsection a,
 .flexsection img {
   transition: opacity 0.4s;
 }
+
 .flexsection a:hover,
 .flexsection img:hover {
   opacity: 0.7;
 }
+
 .flexsection a {
   color: white;
   font-size: 3rem;
@@ -170,17 +169,54 @@ main .bg {
   display: block;
   width: fit-content;
   height: fit-content;
+  position: relative;
 }
+
+.flexsection a::before {
+  content: '';
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-color: pink;
+  position: absolute;
+  right: 12px;
+  top: 5px;
+  background: url(../images/open_in_new_30dp_FFFFFF.png) no-repeat center/cover;
+  opacity: 1;
+}
+
+body.light .flexsection a::before {
+  opacity: 0;
+}
+
+.flexsection a::after {
+  content: '';
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-color: pink;
+  position: absolute;
+  right: 12px;
+  top: 5px;
+  background: url(../images/open_in_new_30dp_000000.png) no-repeat center/cover;
+  opacity: 0;
+}
+body.light .flexsection a::after {
+  opacity: 1;
+}
+
 .flexsection .abox {
   display: flex;
   flex-direction: column;
 }
+
 img {
   max-height: 400px;
   min-width: 300px;
   object-fit: cover;
   cursor: pointer;
 }
+
 img.on {
   width: 100%;
   max-height: 100vh;
@@ -197,6 +233,7 @@ img.on {
   backdrop-filter: blur(4px);
   transition: none;
 }
+
 img.on:hover {
   opacity: 1;
 }
@@ -211,6 +248,7 @@ footer p {
   font-size: 1.6rem;
   margin: 5px;
 }
+
 /* 라이트모드 */
 
 /* 반응형 */

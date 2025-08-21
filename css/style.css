@@ -350,10 +350,6 @@ main .works {
   width: 100%;
 }
 
-main .works .point {
-  font-weight: 800 !important;
-}
-
 main .works nav {
   display: flex;
   justify-content: space-between;
@@ -488,6 +484,7 @@ main .works .listbox .list .top h2 {
   top: 7px;
   left: 52px;
   font-size: 1.5rem;
+  font-weight: 800;
 }
 
 main .works .listbox .list .top div {
