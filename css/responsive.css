@@ -423,7 +423,7 @@
     }
 
     main .home .textbox {
-        bottom: 16px;
+        bottom: 12px;
         left: auto;
         right: 20px;
     }
@@ -503,7 +503,7 @@
     }
 
     main .home .textbox {
-        bottom: 31px;
+        bottom: 27px;
     }
 
     main .aboutme h1 {
@@ -547,6 +547,7 @@
 
     main .home .textbox {
         right: 10px;
+        bottom: 25px;
     }
 
     main .home .textbox p {
