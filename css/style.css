@@ -367,7 +367,7 @@ main .works nav.on {
   opacity: 1;
 }
 
-main .works nav .mobile {
+/* main .works nav .mobile {
   background-color: #000;
   position: absolute;
   bottom: 0;
@@ -375,13 +375,14 @@ main .works nav .mobile {
   width: 100%;
   height: 100vh;
   z-index: -90;
-}
+} */
 
 main .works ul {
   height: 50px;
   display: flex;
   gap: 30px;
   align-items: center;
+  text-align: center;
 }
 
 main .works ul li {
@@ -410,6 +411,7 @@ main .works ul li.on.all:hover {
 main .works .btnbox {
   display: flex;
   text-align: right;
+  text-align: center;
 }
 
 main .works .btnbox p {
@@ -508,7 +510,6 @@ main .works .listbox .list .middle {
 main .works .listbox .list .middle.normal .imgbox {
   width: 400px;
   height: 225px;
-  background-color: pink;
   overflow: hidden;
 }
 
@@ -559,7 +560,6 @@ main .works .listbox .list .middle .flexbox2 {
 main .works .listbox .list .middle.slide .imgbox {
   width: 225px;
   height: 225px;
-  background-color: pink;
   margin-right: 15px;
   overflow: hidden;
 }

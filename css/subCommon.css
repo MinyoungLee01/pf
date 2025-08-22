@@ -177,7 +177,6 @@ main .bg {
   display: block;
   width: 22px;
   height: 22px;
-  background-color: pink;
   position: absolute;
   right: 12px;
   top: 5px;
@@ -194,7 +193,6 @@ body.light .flexsection a::before {
   display: block;
   width: 22px;
   height: 22px;
-  background-color: pink;
   position: absolute;
   right: 12px;
   top: 5px;

@@ -45,12 +45,6 @@
     img.on {
         padding: 50px 40px;
     }
-
-    /* 호버 방지 */
-    .flexsection a:hover,
-    .flexsection img:hover {
-        opacity: 1;
-    }
 }
 
 @media screen and (max-width:1240px) {
@@ -362,13 +356,34 @@
     }
 }
 
+/* 태블릿사이즈부터 호버를 전부 방지 */
+@media screen and (max-width:768px) {
+    img:hover {
+        scale: 1;
+    }
+
+    header>p:hover,
+    header .dark:hover,
+    header span:hover,
+    main .aboutme .stickybox h1:hover,
+    main .works ul li:hover,
+    main .works .btnbox p:hover {
+        opacity: 1;
+    }
+
+    .flexsection a:hover,
+    .flexsection img:hover {
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width:655px) {
     html {
         font-size: 7px;
     }
 
     h1 {
-        font-size: 12rem;
+        font-size: 11.5rem;
     }
 
     header .dark {
@@ -395,9 +410,9 @@
         display: block !important;
     }
 
-    header.on {
+    /* header.on {
         height: 50px;
-    }
+    } */
 
     header p {
         font-size: 1.9rem;
@@ -421,9 +436,9 @@
         margin-left: 10px;
     }
 
-    main .works nav {
+    /* main .works nav {
         top: calc(100% - 50px);
-    }
+    } */
 
     main .works ul li,
     main .works .btnbox p {
@@ -523,7 +538,7 @@
     }
 
     h1 {
-        font-size: 11rem;
+        font-size: 10rem;
     }
 
     .mobile h1 {
