@@ -166,6 +166,10 @@ $(function () {
       $("main .works .listbox .list").removeClass("on");
     }
   });
+  // 자식요소 클릭시 toggle 방지
+  $("main .works .listbox .list a").click(function(e){
+    e.stopPropagation();
+  })
 
   // 모바일 호버 방지
   if ($('.viewbtn').css('display') === 'none') {
